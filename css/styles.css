@@ -46,7 +46,6 @@ img {
 }
 
 .container {
-  width: 100%;
   width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
@@ -141,9 +140,8 @@ img {
   font-size: 56px;
   text-align: center;
   line-height: 1.07;
-  padding-bottom: 48px;
+  margin-bottom: 48px;
   text-align: center;
-  width: 494px;
 }
 
 .hero-btn {
@@ -207,7 +205,7 @@ img {
   font-size: 20px;
   line-height: 1.2;
 
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .feature-list .text {
@@ -222,7 +220,7 @@ img {
 .activities-list {
   display: flex;
   gap: 24px;
-  padding-top: 72px;
+  margin-top: 72px;
 }
 
 /*---------------------------------------------------------------- OUR TEAM ----------------------------------------------------------------*/
@@ -246,7 +244,6 @@ img {
   letter-spacing: 0.02em;
   margin-top: 8px;
   font-size: 16px;
-
   text-align: center;
 }
 
@@ -254,11 +251,12 @@ img {
   display: flex;
   margin-top: 72px;
   flex-wrap: wrap;
+  gap: 24px;
 }
 
 .card-wraper {
   padding: 32px 16px;
-  box-shadow: 0px 1px 6px rgb(46 47 66 / 8%);
+  background-color: var(--white-color);
 }
 
 .team-item {
@@ -299,7 +297,6 @@ footer .text {
 }
 
 .footer-container .text {
-  display: block;
   width: 264px;
   margin-top: 16px;
 }
@@ -307,8 +304,8 @@ footer .text {
 /*---------------------------------------------------------------- PORTFOLIO ----------------------------------------------------------------*/
 
 .filters {
-  margin-top: 96px;
-  margin-bottom: 120px;
+  padding-top: 96px;
+  padding-bottom: 120px;
 }
 
 .filters-list {
@@ -321,6 +318,7 @@ footer .text {
 .btn {
   border: 1px solid var(--subtle-backgrounds-color);
   padding: 12px 24px;
+  border-radius: 4px;
 }
 
 .filters-list .filters-btn {
@@ -331,16 +329,15 @@ footer .text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
 }
 
 .filters-list .filters-btn:hover,
 .filters-list .filters-btn:focus {
   color: var(--white-color);
   background: var(--accent-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-color: transparent;
 }
 
 /*---------------------------------------------------------------- LIST OF CARDS ----------------------------------------------------------------*/
@@ -366,7 +363,6 @@ footer .text {
 .cards-container {
   display: block;
   flex-wrap: wrap;
-  margin-top: 72px;
   gap: 48px 24px;
 }
 
@@ -390,7 +386,6 @@ footer .text {
 
 .cards-wraper {
   padding: 32px 16px;
-  box-shadow: 0px 1px 6px rgb(46 47 66 / 8%);
 }
 
 .cards-border {
